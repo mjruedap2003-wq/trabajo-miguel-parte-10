@@ -1,3 +1,5 @@
-0 Izquierda
-1 Arriba
-2 Derecha
+0 Con telefono
+1 Con nada 
+2 Con audifonos
+3 Con libro
+4 Tomando agua
