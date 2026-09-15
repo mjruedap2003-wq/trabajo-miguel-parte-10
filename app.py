@@ -81,7 +81,7 @@ st.caption(
 
 # Imagen decorativa previa
 try:
-    banner = Image.open("OIG5.jpg")
+    banner = Image.open("profesor_estricto.jpg")
     st.image(banner, width=320, caption="Scanner Biométrico Neuronal v4.0")
 except FileNotFoundError:
     pass
