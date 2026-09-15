@@ -106,7 +106,7 @@ with st.sidebar:
     st.caption("Cyberdyne Security Systems © 2026")
 
 # --- ESCANEO VÍA CÁMARA ---
-st.subheader("📸 ESCANEO BIOMÉTRICO DEL POSTULANTE")
+st.subheader("📸 ESCANEO BIOMÉTRICO DEL POSTULANTE, POR FAVOR QUÍTESE LAS GAFAS U OTROS OBJETOS DEL ROSTRO Y MIRE FIJAMENTE A LA CÁMARA")
 img_file_buffer = st.camera_input("INICIAR RECONOCIMIENTO FACIAL Y ENTORNO")
 
 if img_file_buffer is not None and model is not None:
